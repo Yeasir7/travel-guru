@@ -1,0 +1,141 @@
+[
+  {
+    "id": "loc001",
+    "name": "COX'S BAZAR",
+    "description": "Cox's Bazar is a town on the southeast coast of Bangladesh. It's known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. North, sea turtles breed on nearby Sonadia Island.",
+    "image_url": "/images/Sreemongol.png",
+    "accommodations": [
+      {
+        "id": "stay001",
+        "name": "Light bright airy stylish apt & safe peaceful stay",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "baths": 2,
+        "amenities": ["Wifi", "Air conditioning", "Kitchen"],
+        "cancellation_policy": "flexible",
+        "rating": 4.9,
+        "number_of_reviews": 20,
+        "price_per_night": 34,
+        "original_price_total": 167,
+        "image_url": "path/to/image_for_stay001.jpg"
+      },
+      {
+        "id": "stay002",
+        "name": "Apartment in Lost Panorama",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "baths": 2,
+        "amenities": ["Wifi", "Air conditioning", "Kitchen"],
+        "cancellation_policy": "flexible",
+        "rating": 4.8,
+        "number_of_reviews": 10,
+        "price_per_night": 52,
+        "original_price_total": 187,
+        "image_url": "path/to/image_for_stay002.jpg"
+      },
+      {
+        "id": "stay003",
+        "name": "AR Lounge & Pool (r&r + b&b)",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "baths": 2,
+        "amenities": ["Wifi", "Air conditioning", "Kitchen", "Pool", "Lounge"],
+        "cancellation_policy": "flexible",
+        "rating": 4.9,
+        "number_of_reviews": 25,
+        "price_per_night": 44,
+        "original_price_total": 167,
+        "image_url": "path/to/image_for_stay003.jpg"
+      }
+    ]
+  },
+  {
+    "id": "loc002",
+    "name": "SREEMANGAL",
+    "description": "Sreemangal is known as the 'Tea Capital of Bangladesh' due to its vast tea estates. It offers lush green landscapes, a refreshing climate, and is home to various indigenous communities. Popular attractions include the Lawachara National Park, famous for its diverse wildlife and tropical forests, and the Baikka Beel Wetland Sanctuary, a haven for migratory birds.",
+    "image_url": "/images/Sajek.png",
+    "accommodations": [
+      {
+        "id": "stay004",
+        "name": "Tea Garden Villa Retreat",
+        "guests": 6,
+        "bedrooms": 3,
+        "beds": 4,
+        "baths": 3,
+        "amenities": ["Wifi", "Garden access", "Tea tasting", "Balcony"],
+        "cancellation_policy": "moderate",
+        "rating": 4.7,
+        "number_of_reviews": 18,
+        "price_per_night": 65,
+        "original_price_total": 260,
+        "image_url": "path/to/image_for_stay004_sreemangal.jpg"
+      },
+      {
+        "id": "stay005",
+        "name": "Eco-Friendly Bungalow in Nature",
+        "guests": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "baths": 1,
+        "amenities": ["Wifi", "Hiking trails", "Outdoor dining"],
+        "cancellation_policy": "flexible",
+        "rating": 4.6,
+        "number_of_reviews": 12,
+        "price_per_night": 38,
+        "original_price_total": 152,
+        "image_url": "path/to/image_for_stay005_sreemangal.jpg"
+      }
+    ]
+  },
+  {
+    "id": "loc003",
+    "name": "SUNDARBANS",
+    "description": "The Sundarbans is a vast forest in the coastal region of the Bay of Bengal, one of the largest single block of tidal halophytic mangrove forest in the world. It is a UNESCO World Heritage Site, famous for being home to the Royal Bengal Tiger, and boasts a rich biodiversity of flora and fauna, including various species of birds, deer, and crocodiles.",
+    "image_url": "/public/images/sundorbon.png",
+    "accommodations": [
+      {
+        "id": "stay006",
+        "name": "Floating Houseboat Adventure",
+        "guests": 5,
+        "bedrooms": 2,
+        "beds": 3,
+        "baths": 1,
+        "amenities": [
+          "No Wifi",
+          "Boat tours",
+          "Cook on board",
+          "Wildlife viewing"
+        ],
+        "cancellation_policy": "strict",
+        "rating": 4.5,
+        "number_of_reviews": 9,
+        "price_per_night": 90,
+        "original_price_total": 360,
+        "image_url": "path/to/image_for_stay006_sundarbans.jpg"
+      },
+      {
+        "id": "stay007",
+        "name": "Forest Lodge with Local Guide",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "baths": 2,
+        "amenities": [
+          "Limited Wifi",
+          "Guided tours",
+          "Restaurant",
+          "Nature walks"
+        ],
+        "cancellation_policy": "moderate",
+        "rating": 4.7,
+        "number_of_reviews": 14,
+        "price_per_night": 70,
+        "original_price_total": 280,
+        "image_url": "path/to/image_for_stay007_sundarbans.jpg"
+      }
+    ]
+  }
+]
