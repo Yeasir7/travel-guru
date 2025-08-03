@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
+import Hotel from "../components/Hotel";
 
 const Destination = () => {
   const background = "/images/Rectangle1.png";
@@ -12,7 +13,8 @@ const Destination = () => {
     >
       {/* navbar start */}
       <NavBar></NavBar>
-      {/* navbar end */}
+      {/* Hotel  */}
+      <Hotel></Hotel>
     </div>
   );
 };

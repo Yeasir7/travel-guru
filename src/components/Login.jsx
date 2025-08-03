@@ -1,20 +1,27 @@
 import React, { useContext } from "react";
 import NavBar from "./NavBar";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../providers/AuthContext";
 
 const Login = () => {
   const { signWithGoogle } = useContext(AuthContext);
   const { signInUser } = useContext(AuthContext);
 
+  const location = useLocation()
+  console.log(location);
+
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
-    console.log(email, password);
 
     signInUser(email, password)
-      .then((Result) => console.log(Result.user))
+      .then((Result) => {
+        console.log(Result.user);
+        navigate(location?.state ? location.state : "/")
+      })
       .catch((error) => console.error(error));
   };
 

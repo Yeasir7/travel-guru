@@ -6,7 +6,6 @@ import Cards from '../components/Cards';
 const Home = () => {
     const background = "/images/Rectangle1.png";
     const cards = useLoaderData();
-    console.log(cards.length)
     return (
       <div
         className="bg-cover bg-center  min-h-screen"
@@ -18,7 +17,7 @@ const Home = () => {
         <NavBar></NavBar>
 
         {/* cards */}
-        <div className="grid grid-cols-3 items-center gap-3 min-h-[calc(100vh-300px)]">
+        <div className="grid grid-cols-3 items-center gap-3 min-h-[calc(100vh-100px)]">
           {cards.map((card) => (
             <Cards key={card.id} card={card}></Cards>
           ))}
